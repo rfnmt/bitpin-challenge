@@ -13,6 +13,7 @@ yarn start
 - [x] Showing each market in a separated card
 - [x] Market details page
 - [x] Showing details for buy, sell and transactions in separated tabs
+- [x] Dark mode
 
 # Project Overview
 
