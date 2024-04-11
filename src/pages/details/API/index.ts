@@ -3,6 +3,7 @@ import { DetailsResponseType } from "../types";
 
 const ENDPOINTS = {
   buyAndSell: (marketId: string) => `v2/mth/actives/${marketId}/`,
+  // This route has a 404 not found error!
   transactions: (marketId: string) => `v2/mth/matches/${marketId}/`,
 };
 
