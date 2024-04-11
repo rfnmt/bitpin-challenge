@@ -32,8 +32,6 @@ export default function Main() {
         (item) => item.currency2.code === MARKET_CODES.USDT
       );
 
-      console.log({ data, newRialMarkets, newTetherMarkets });
-
       setPageData((prev) => ({
         ...prev,
         IRT: newRialMarkets,
@@ -49,8 +47,6 @@ export default function Main() {
     }));
   };
 
-  console.log({ loading, pageData });
-
   if (loading) return <Loading className="mx-auto mt-10" />;
 
   return (
@@ -60,7 +56,7 @@ export default function Main() {
         setActiveTab={setActiveTab}
         tabs={TABS}
       />
-      <div className="grid grid-cols-6 text-2xl p-3 bg-gray-800 text-white border-t border-white">
+      <div className="grid grid-cols-6 text-2xl p-3 bg-gray-800 text-white border-t border-white dark:border-gray-700">
         <p>{TRANSLATIONS.code}</p>
         <p>{TRANSLATIONS.title}</p>
         <p>{TRANSLATIONS.price}</p>
