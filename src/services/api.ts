@@ -1,4 +1,4 @@
-import axios, { AddressFamily } from "axios";
+import axios from "axios";
 import { GetAPIArgs } from "./types";
 
 // Note: Usually this should be in an ENV file
