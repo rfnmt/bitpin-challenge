@@ -5,5 +5,5 @@ interface Props {
 }
 
 export default function Layout({ children }: Props) {
-  return <div className="mx-5">{children}</div>;
+  return <div className="font-Vazirmatn mx-5">{children}</div>;
 }
